@@ -5,3 +5,50 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 @import 'adonis';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  background: #496e99;
+  padding: .5rem;
+}
+.btn {
+  border: 1px solid #082238;
+  border-radius: 50%;
+  background: #082238;
+  font-size: 3rem;
+  color: #496e99;
+  margin-left: 5rem;
+}
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  width: 50rem;
+  background: #e0e1e2;
+
+}
+.photo-tile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+.photo-frame {
+  width: 50%;
+  object-fit: contain;
+
+}
+.photo-info {
+  background: #fafafa;
+  width: 50%;
+}
+.photo-text {
+  padding: 1.5rem;
+}

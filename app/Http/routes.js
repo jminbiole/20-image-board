@@ -18,3 +18,7 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+Route.get('/photos', function * (req, res) {
+  yield res.sendView('photos');
+})
