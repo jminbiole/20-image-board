@@ -19,6 +19,5 @@ const Route = use('Route')
 
 Route.on('/').render('welcome')
 
-Route.get('/photos', function * (req, res) {
-  yield res.sendView('photos');
-})
+Route.get('/photos', 'PhotoController.new')
+Route.post('/photos', 'PhotoController.create')
