@@ -1,0 +1,121 @@
+// @import 'yoga';
+// @import 'normalize';
+
+// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// @import 'font-awesome';
+@import 'box-sizing';
+@import 'adonis';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #edeeef;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem;
+  background: #496e99;
+}
+
+.header-btn_container {
+  max-width: 60rem;
+  margin: auto;
+}
+
+.fa-plus-circle {
+  color: #082238;
+  font-size: 3rem;
+}
+
+.new-img {
+  padding: 0 1rem;
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+.add-img_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  background: #fff;
+  margin: auto;
+}
+
+.input-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+input {
+  padding: 1rem;
+  margin: .5rem 0;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+.img-caption {
+  padding-bottom: 2rem;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5rem;
+}
+
+button {
+  padding: 1.3rem 3rem;
+  margin-left: .3rem;
+  border-radius: 6%;
+  font-size: 1rem;
+  color: #fff;
+  border: 2px solid #ddd;
+}
+
+.submit {
+  background: #17aa56;
+  border: 2px solid #17aa56;
+}
+.fa-picture-o {
+  font-size: 2rem;
+  margin: 0 .3rem;
+}
+
+.main-content {
+  padding: 0 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+}
+
+.photo-tile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.photo-frame {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.photo-info {
+  width: 100%;
+  background: #fafafa;
+}
+
+.photo-text {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
