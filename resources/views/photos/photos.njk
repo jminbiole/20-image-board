@@ -1,4 +1,4 @@
-{% extends "master" %}
+{# {% extends "master" %}
 {% block content %}
 <div class="full-page">
   <div class="app">
@@ -9,6 +9,7 @@
       </div>
     </div>
     <form class="new-img" action="/photos" method="POST">
+      {{ csrfField }}
       <div class="add-img_container">
         <div class="input-block">
           <input class="img-url" type="text" placeholder="Image URL" value="">
@@ -43,4 +44,4 @@
     </section>
   </div>
 </div>
-{% endblock %}
+{% endblock %} #}
